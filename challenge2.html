@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge2</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        body{
+            width: 1369px;
+            height: 109vh;
+            background-color: hsl(217, 54%, 11%);
+        }
+        .main{
+            width: 330px;
+            height: 530px;
+            background-color: hsl(216, 50%, 16%);
+            border-radius: 10px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+        }
+        .main img{
+         width: 280px;
+         padding: 20px;
+         border-radius: 30px;
+         opacity: 1;
+         display: block;
+         transition: .5s ease;
+         backface-visibility: hidden;
+        }
+        .main img:hover{
+            cursor: pointer;
+            opacity: 0.3;
+        }
+         .last img{
+            width: 50px;
+            height: 50px;
+            margin: -12px 0px -20px 0px;
+         }
+         .last p{
+            padding-left: 80px;
+            margin-top: -50px;
+            font-size: 18px;
+            color: hsl(215, 51%, 70%);
+         }
+         .last p span{
+            color: #fff;
+         }
+         .last p span:hover{
+            color: hsl(178, 100%, 50%);
+            cursor: pointer;
+         }
+         hr{
+            width: 240px;
+            height: 0px;
+            color: hsl(215, 51%, 70%) ;
+            margin: 2px 30px;
+         }
+         #fig{
+            color:hsl(215, 51%, 70%) ;
+            font-size: 18px;
+         }
+         #fig span{
+          color:hsl(178, 100%, 50%) ;
+          margin-right: 125px;
+          padding-left:20px ;
+         }
+         #text{
+            color:  hsl(215, 51%, 70%);
+            margin-top: 10px;
+            margin-left: 20px;
+            font-size: 18px;
+         }
+         h1{
+            color: #fff;
+            margin-left: 20px;
+            font-size: 24px;
+         }
+         h1:hover{
+            color:hsl(178, 100%, 50%) ;
+            cursor: pointer;
+         }
+         #pictext{
+            position: absolute;
+            top: 30%;
+            left: 50%;
+            transform: translate(-30%, -50%);
+            color: #fff;
+         }
+         #pictext:hover{
+            background:hsl(178, 100%, 50%)  ;
+         }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <img src="images/image-equilibrium.jpg" alt="">
+        <div id="pictext"> go </div>
+        <h1>Equilibrium #3429 <br>
+        </h1>
+        <p id="text">Our Equilibrium collection promotes <br>
+        balance and coin.</p><br>
+        <p id="fig"><span>0.041ETH</span> 3 days left</p><br>
+        <hr>
+        <div class="last">
+        <img src="images/image-avatar.png" alt="">
+         <p>Creation of <span>Jules Wyvern</span></p></div>
+    </div>
+</body>
+</html>
