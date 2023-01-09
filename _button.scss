@@ -1,0 +1,40 @@
+$btn-color1:  hsl(171, 66%, 44%);
+$btn-color2: hsl(233, 100%, 69%);
+$btn-color1hover:hsl(171, 81%, 64%);
+$btn-color2hover:hsl(233, 90%, 76%);
+ 
+button{
+    width: 130px;
+    padding: 5px;
+    color: #fff;
+    margin: 10px 8px 60px 0px;
+    box-shadow: 0px 4px 8px 4px rgb(0, 0, 0,0.2);
+
+}
+#one{
+    margin-left: 40%;
+    background-color: $btn-color1;
+    border: none;
+    border-radius: 8px;
+    padding: 2px 5;
+
+    &:hover{
+        background-color: $btn-color1hover;
+        transform: scale(0.98);
+        cursor: pointer;
+        transition: ease 0.3s;
+    }
+}
+#two{
+    background-color: $btn-color2;
+    border: none;
+    border-radius: 8px;
+    padding: 2px 5;
+
+    &:hover{
+        background-color: $btn-color2hover;
+        transform: scale(0.98);
+        cursor: pointer;
+        transition: ease 0.3s;
+    }
+}
