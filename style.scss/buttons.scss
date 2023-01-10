@@ -1,0 +1,25 @@
+button{
+    background-color: $text-color;
+    border: none;
+    border-radius: 8px;
+    padding: 4px 8px;
+    margin-right: 8px;
+    font-size: 15px;
+
+    &:hover{
+        cursor: pointer;
+        color: $text-color;
+        background-color: #082858;
+        transition: ease 0.3s;
+
+    }
+}
+
+#one{
+    @extend button
+    
+}
+
+#two{
+    @extend button 
+}
